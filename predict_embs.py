@@ -93,12 +93,12 @@ if __name__ == '__main__':
     parser.add_argument('-neg_low_file', type=str, default=None, help='csv file with positive mode [M-H]+ low energy spectrum')
     parser.add_argument('-neg_high_file', type=str, default=None, help='csv file with positive mode [M-H]- low energy spectrum')
 
-'''
-csv files format:
-    1st column: m/z values
-    2nd column: intensities
-    comma separated
-'''
+    '''
+    csv files format:
+        1st column: m/z values
+        2nd column: intensities
+        comma separated
+    '''
 
     args = parser.parse_args()
 
